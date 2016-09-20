@@ -1,0 +1,248 @@
+#body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #EFEFEF;
+    font-size: 13px;
+}
+.word_hui{
+    color:#999999 ;
+}
+
+header{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+.img{
+    width: 100%;
+    height: 150px;
+}
+footer{
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    border-top:#7F001E 3px solid ;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 10px;
+}
+/*导航栏*/
+.nav_title{
+    margin: auto;
+    border-top: #7F001E 3px solid;
+    width: 80%;
+    height: 33px;
+    background-color: #F7F7F7;
+    border-right:#DAD7D7 1px solid ;
+    border-left:#DAD7D7 1px solid ;
+    border-bottom:#DAD7D7 1px solid ;
+}
+.nav_title .small_nav{
+    width: 100%;
+    /*height:25px;*/
+    margin-top: 4px;
+    border: 1px solid transparent;
+}
+.nav_title .small_nav .ul{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: -40px;
+    color: #7F001E;
+}
+.nav_title .small_nav .ul .li{
+    width: 10%;
+    height: 23px;
+    float: left;
+    text-align: center;
+    line-height: 23px;
+    font-size: 15px;
+    border-right:#E9E7E7 2px solid;
+    font-weight: 700;
+}
+/*导航后的搜索框*/
+.search{
+    width: 15%;
+    height: 23px;
+    float: left;
+    border-radius: 4px;
+    border: #DAD7D7 1px solid;
+    margin-left: 20px;
+}
+.search input{
+    width: 85%;
+    height: 23px;
+    outline: none;
+    border: none;
+    float: left;
+}
+.search .img{
+    width: 15%;
+    height: 22px;
+    float: right;
+}
+/*效果*/
+/*.nav .small_nav .ul .li:hover{*/
+    /*background-color: #7F001E;*/
+    /*color: white;*/
+    /*font-weight: 700;*/
+    /*border-radius: 8px;*/
+/*}*/
+.sty{
+    color: white;
+    background-color: #7F001E;
+    font-weight: 700;
+    border-radius: 8px;
+    width: 10%;
+    height: 23px;
+    float: left;
+    text-align: center;
+    line-height: 23px;
+    font-size: 15px;
+    border-right:#E9E7E7 2px solid;
+}
+/*首页中间部分*/
+.content_div{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    height: auto;
+    border: white 1px solid;
+}
+.div_top{
+    width: 100%;
+    height: 310px;
+    /*border: red 1px solid;*/
+    margin-top: 10px;
+}
+/*轮播*/
+.div_top .div_left{
+    float: left;
+    margin-left: 10px;
+}
+/*统战新闻*/
+.div_top .div_right{
+    float: right;
+    border: #DAD7D7 1px solid;
+    width: 560px;
+    margin-right: 10px;
+    height: 287px;
+}
+.div_right_top{
+    width: 100%;
+    height: 33px;
+    background-color:#EFEFEF ;
+}
+.div_right_top .span{
+    color: #B01F30;
+    margin-left: 520px;
+    display: block;
+    margin-top: -25px;
+}
+.div_right_bottom{
+    width: 100%;
+    height: 250px;
+}
+.div_right_bottom ul{
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: 0;
+}
+
+.div_right_bottom ul .li_bottom_left{
+    line-height: 31px;
+    border-bottom: #DAD7D7 1px solid;
+}
+.div_right_bottom ul .noborder{
+    line-height: 31px;
+}
+.div_right_bottom ul a{
+    text-decoration: none;
+    color: black;
+}
+/*院系动态一大块*/
+.div_center{
+    width: 100%;
+    height: 720px;
+}
+.div_center .span_word{
+    color: #B01F30;
+    margin-left: 340px;
+    display: block;
+    margin-top: -25px;
+}
+
+.div_center .div_center_top_left{
+    float: left;
+    border: #DAD7D7 1px solid;
+    width: 35%;
+    margin-left: 10px;
+    height: 287px;
+}
+.div_center_top_left .bottom{
+    width: 100%;
+    height: 287px;
+}
+
+.div_center_top_left .bottom ul{
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: 0;
+    /*border: red 1px solid;*/
+}
+.div_center_top_left .bottom ul .li_bottom_left{
+    line-height: 31px;
+    border-bottom: #DAD7D7 1px solid;
+    overflow: hidden;
+}
+.div_center_top_left .bottom ul .noborder{
+    line-height: 31px;
+}
+.div_center_top_left .bottom ul a{
+    text-decoration: none;
+    color: black;
+}
+/*通知公告*/
+.div_center .div_center_top_right{
+    float: right;
+    /*border: red 1px solid;*/
+    width: 25.8%;
+    margin-right: 10px;
+    height: 530px;
+}
+.div_center .div_center_top_right .announcement{
+    width: 100%;
+    height: 190px;
+    background-color: #EFEFEF;
+}
+.announcement .announcement_top{
+    height: 33px;
+    border-bottom: #B01F30 2px solid;
+    color: #B01F30;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    padding-left: 10px;
+}
+.announcement li{
+    line-height: 23px;
+}
+
+.margin_sty{
+    margin: 10px 0px 10px 0px;
+}
+/*部长信箱*/
+.input{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #B01F30;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+/*下拉框*/
+.select{
+    width: 92%;
+    margin: 6px 10px;
+}

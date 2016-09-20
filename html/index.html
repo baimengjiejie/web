@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script src="../script/jquery-3.0.0.min.js"></script>
+    <!--兼容性-->
+    <meta http-equiv = "X-UA-Compatible" content = "chrome=1" >
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/index.css" rel="stylesheet" type="text/css">
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+</head>
+<body id="body">
+<header><img src="../img/header.PNG" class="img"></header>
+<nav class="nav_title">
+    <div class="small_nav">
+        <ul class="ul">
+            <li class="li sty" id="index">首页</li>
+            <li class="li">部门介绍</li>
+            <li class="li">民族党派</li>
+            <li class="li">统战团体</li>
+            <li class="li" id="edu">民族宗教</li>
+            <li class="li">政策服务</li>
+            <li class="li">党支部工作</li>
+            <li class="li">下载专区</li>
+            <li class="search">
+            <input type="search" name="url" placeholder="请输入关键字">
+            <img src="../img/search.PNG" class="img">
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--中间大div-->
+<div class="content_div"></div>
+
+<footer>
+    <p>版权所有：Copy right@2010 ALL RIGHTS RESERFED 中原工程学院 河南省郑州市中原中路141号 邮编:450007</p>
+    <p>电话：0371-62506888 67698128 招生咨询电话：0371-67698700 传真：0371-62506095 67978062</p>
+</footer>
+</body>n
+<script src="../script/Control/FZlunbo.js"></script>
+<!-- jQuery (Bootstrap 插件需要引入) -->
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- 包含了所有编译插件 -->
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+
+//    跳转页面
+    $(function () {
+        $(".content_div").load("first_page.html");
+        $("#edu").click(function(){
+            $(".content_div").load("nation.html");
+        });
+        $("#index").click(function () {
+            $(".content_div").load("first_page.html");
+        });
+    })
+
+</script>
+</html>
